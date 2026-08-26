@@ -1,0 +1,15 @@
+{
+  "name": "selenium-webdriver-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nahin",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "selenium-webdriver": "^4.47.0"
+  }
+}
