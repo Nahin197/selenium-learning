@@ -3,6 +3,8 @@ import { Builder, Key, Browser, By } from "selenium-webdriver";
 const driver = new Builder().forBrowser(Browser.CHROME).build();
 
 async function run() {
+  //for maximizing the window
+  await driver.manage().window().maximize();
   await driver.get("https://ostad.app/");
   await driver.sleep(4000);
 

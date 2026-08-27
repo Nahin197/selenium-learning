@@ -3,6 +3,8 @@ import { Builder, Key, Browser, By } from "selenium-webdriver";
 const driver = new Builder().forBrowser(Browser.CHROME).build();
 
 async function run() {
+
+  await driver.manage().window().maximize();
   await driver.get("https://ostad.app/");
   await driver.sleep(4000);
   //  await driver.findElement(By.css("div[title='Web & App Development']")).click();
