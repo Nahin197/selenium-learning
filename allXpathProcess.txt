@@ -4,3 +4,4 @@
 2.for partial we do use contains 
 3.if we can same thing multiple times we do use indexing
 4.relative xpath (parent child relation)
+5.absolute xpath
